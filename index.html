@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quizspiel</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Eleganter Bokeh-/Partikel-Hintergrund -->
+  <canvas id="bgCanvas" aria-hidden="true"></canvas>
+
+  <main class="container">
+    <header class="topbar">
+      <h1 class="brand">Quizspiel</h1>
+    </header>
+
+    <section class="stage">
+      <button id="nextQuestionBtn" class="cta" data-animate-shine>
+        <span>Nächste Frage</span>
+      </button>
+
+      <div id="questionCard" class="question-card" aria-live="polite">
+        <div id="questionText" class="question-text">Drücke „Nächste Frage“</div>
+      </div>
+
+      <div class="hints">
+        <button class="hint-chip" id="hintBtn1" data-index="0" disabled>Hinweis 1</button>
+        <button class="hint-chip" id="hintBtn2" data-index="1" disabled>Hinweis 2</button>
+        <button class="hint-chip" id="hintBtn3" data-index="2" disabled>Hinweis 3</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" data-dismiss></div>
+    <div class="modal-dialog">
+      <h2 id="modalTitle">Hinweis</h2>
+      <p id="modalBody"></p>
+      <div class="modal-actions">
+        <button id="closeModalBtn" class="btn">Schließen</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
