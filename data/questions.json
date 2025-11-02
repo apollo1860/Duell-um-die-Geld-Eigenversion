@@ -1,5 +1,6 @@
-
-  {
+{
+  "questions": [
+    {
     id: "q1",
     category: "Macht & Politik",
     question: "Wie viele Raubüberfälle wurden laut Bundeskriminalamt im Jahr 2024 in Deutschland registriert?",
