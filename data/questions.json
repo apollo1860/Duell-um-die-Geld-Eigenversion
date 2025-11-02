@@ -1,34 +1,1674 @@
-{
-  "questions": [
+export const questions = [
+  {
+    id: "q1",
+    category: "Macht & Politik",
+    question: "Wie viele Raubüberfälle wurden laut Bundeskriminalamt im Jahr 2024 in Deutschland registriert?",
+    hints: [
+      "Wir reden über polizeilich erfasste Raubdelikte in ganz Deutschland – eine fünfstellige Zahl.",
+      "Es liegt im niedrigen Vierzigtausender-Bereich, also über 40.000, aber unter 45.000.",
+      "Genau 43.194 Raubdelikte wurden 2024 laut BKA gemeldet."
+    ],
+    answer: "43.194 (BKA, Jahr 2024)"
+  },
+  {
+    id: "q2",
+    category: "Essen & Trinken",
+    question: "Wie viel Bier trank der durchschnittliche Deutsche im Jahr 2023 pro Kopf?",
+    hints: [
+      "Es sind keine 100 Liter – der Trend zeigt seit Jahren leicht nach unten.",
+      "Im oberen Achtzigerbereich – näher an 90 als an 80 Litern.",
+      "Rund 88 Liter pro Person im Jahr 2023."
+    ],
+    answer: "≈ 88 Liter (2023)"
+  },
+  {
+    id: "q3",
+    category: "TV & Medien",
+    question: "In welchem Jahr startete „Circus HalliGalli“ mit Joko & Klaas im TV?",
+    hints: [
+      "Frühe 2010er – Selfies waren noch halbwegs neu, Vine war kurz beliebt.",
+      "Das Jahr, in dem Angela Merkel ihre dritte Amtszeit begann.",
+      "2013 – erste Folge am 25. Februar auf ProSieben."
+    ],
+    answer: "2013 (25. Februar, ProSieben)"
+  },
+  {
+    id: "q4",
+    category: "Gesellschafts- und Videospiele",
+    question: "Wann wurde das Brettspiel Monopoly erstmals veröffentlicht?",
+    hints: [
+      "Zwischen Weltwirtschaftskrise und Zweitem Weltkrieg – ein Spiel über Geld mitten in harter Zeit.",
+      "In den 1930er-Jahren, also vor fast 100 Jahren.",
+      "1935 – Parker Brothers veröffentlicht Monopoly offiziell."
+    ],
+    answer: "1935 (Parker Brothers)"
+  },
+  {
+    id: "q5",
+    category: "Gesellschafts- und Videospiele",
+    question: "Wann erschien das Spiel „Mensch ärgere dich nicht“ erstmals offiziell?",
+    hints: [
+      "Es entstand in Deutschland – lange bevor Videospiele existierten.",
+      "Kurz nach dem Ersten Weltkrieg – ein echter Klassiker mit Würfeln.",
+      "1914 – erfunden von Josef Friedrich Schmidt."
+    ],
+    answer: "1914 (Josef Friedrich Schmidt)"
+  },
+  {
+    id: "q6",
+    category: "TV & Medien",
+    question: "Wann kam der erste Matrix-Film in die Kinos?",
+    hints: [
+      "Späte 1990er – Sonnenbrillen, Leder und philosophische Fragen über die Realität.",
+      "Er kam kurz vor der Jahrtausendwende und prägte ein ganzes Filmgenre.",
+      "1999 – der erste 'Matrix'-Film mit Keanu Reeves erschien."
+    ],
+    answer: "1999 (Matrix – Keanu Reeves)"
+  },
+  {
+    id: "q7",
+    category: "TV & Medien",
+    question: "Wann startete der erste Harry-Potter-Film in den Kinos?",
+    hints: [
+      "Zu Beginn des neuen Jahrtausends – Magie traf Kino.",
+      "Etwa zwei Jahre nach Erscheinen des vierten Buches der Reihe.",
+      "2001 – 'Harry Potter und der Stein der Weisen' feierte Premiere."
+    ],
+    answer: "2001 (Harry Potter und der Stein der Weisen)"
+  },
+  {
+    id: "q8",
+    category: "Persönlichkeiten",
+    question: "In welchem Jahr wurde der Berliner Rapper Ski Aggu geboren?",
+    hints: [
+      "Er gehört zur Generation Z – also irgendwann nach der Jahrtausendwende.",
+      "In der ersten Hälfte der 2000er, als Nokia-Handys noch cool waren.",
+      "Geboren im Jahr 2007."
+    ],
+    answer: "2007 (Ski Aggu)"
+  },
+  {
+    id: "q9",
+    category: "Musik & Hits",
+    question: "Wann wurde die britische Sängerin Adele geboren?",
+    hints: [
+      "Sie gehört zur Generation der 80er-Kinder, die mit CD-Playern groß wurden.",
+      "Mitte der 1980er – im gleichen Jahrzehnt wie Beyoncé und Lady Gaga.",
+      "1988 – Adele Laurie Blue Adkins wurde am 5. Mai geboren."
+    ],
+    answer: "1988 (Adele Laurie Blue Adkins)"
+  },
+  {
+    id: "q10",
+    category: "Musik & Hits",
+    question: "Wann wurde Bruno Mars geboren?",
+    hints: [
+      "Er kam in den 1980ern auf die Welt – also vor dem Walkman-Höhepunkt.",
+      "Etwa zur gleichen Zeit wie Usher und Gwen Stefani ihre Karrieren starteten.",
+      "1985 – Bruno Mars wurde am 8. Oktober geboren."
+    ],
+    answer: "1985 (8. Oktober, Honolulu)"
+  },
     {
-      "id": "q1",
-      "question": "Ich bin ein Planet in unserem Sonnensystem. Wer bin ich?",
-      "hints": [
-        "Ich bin der vierte Planet von der Sonne.",
-        "Meine Oberfläche ist von Eisenoxid gerötet.",
-        "NASA plante Missionen namens 'Perseverance' und 'Curiosity' zu mir."
-      ],
-      "answer": "Mars"
-    },
+    id: "q11",
+    category: "Musik & Hits",
+    question: "In welchem Jahr wurde die Sängerin Cher geboren?",
+    hints: [
+      "Sie startete in den 1960ern durch – also stammt sie aus den 1940ern.",
+      "In der Mitte der 1940er-Jahre – kurz nach dem Zweiten Weltkrieg.",
+      "1946 – Cher kam am 20. Mai in Kalifornien zur Welt."
+    ],
+    answer: "1946 (20. Mai, Kalifornien)"
+  },
+  {
+    id: "q12",
+    category: "Kunst",
+    question: "Wann wurde Wolfgang Amadeus Mozart geboren?",
+    hints: [
+      "Er komponierte, als es noch keine Eisenbahnen gab – 18. Jahrhundert.",
+      "In der zweiten Hälfte des 18. Jahrhunderts – kurz vor Beethoven.",
+      "1756 – in Salzburg erblickte Mozart das Licht der Welt."
+    ],
+    answer: "1756 (27. Januar, Salzburg)"
+  },
+  {
+    id: "q13",
+    category: "Musik & Hits",
+    question: "In welchem Jahr wurde Pop-Ikone Madonna geboren?",
+    hints: [
+      "Queen of Pop – groß geworden in den 1980ern, geboren Mitte des 20. Jahrhunderts.",
+      "Sie stammt aus den 1950ern, Baby-Boomer-Generation.",
+      "1958 – Madonna Louise Ciccone, geboren am 16. August."
+    ],
+    answer: "1958 (16. August, Michigan)"
+  },
+  {
+    id: "q14",
+    category: "Macht & Politik",
+    question: "Wann wurde Donald Trump geboren?",
+    hints: [
+      "Er gehört zur Nachkriegs-Generation – noch vor den Babyboomern.",
+      "In der Mitte der 1940er, kurz nach Ende des Zweiten Weltkriegs.",
+      "1946 – Donald John Trump, geboren am 14. Juni."
+    ],
+    answer: "1946 (14. Juni, New York City)"
+  },
+  {
+    id: "q15",
+    category: "Musik & Hits",
+    question: "Wann wurde Queen-Sänger Freddie Mercury geboren?",
+    hints: [
+      "Er wuchs in einer Zeit ohne Internet oder CDs auf – Mitte des 20. Jahrhunderts.",
+      "In den späten 1940ern, also kurz nach dem Krieg.",
+      "1946 – Freddie Mercury kam am 5. September zur Welt."
+    ],
+    answer: "1946 (5. September, Sansibar)"
+  },
+  {
+    id: "q16",
+    category: "Musik & Hits",
+    question: "In welchem Jahr wurde Taylor Swift geboren?",
+    hints: [
+      "Sie gehört zur Millennial-Generation – groß geworden mit MySpace und Country-Pop.",
+      "In den späten 1980ern – noch vor dem Internet-Boom der 1990er.",
+      "1989 – Taylor Alison Swift wurde am 13. Dezember geboren."
+    ],
+    answer: "1989 (13. Dezember, Pennsylvania)"
+  },
+  {
+    id: "q17",
+    category: "Persönlichkeiten",
+    question: "Wann wurde Angela Merkel geboren?",
+    hints: [
+      "Sie ist Nachkriegsgeneration – aufgewachsen in der DDR.",
+      "Mitte der 1950er – etwa zur selben Zeit wie Bill Gates.",
+      "1954 – Angela Dorothea Merkel, geboren am 17. Juli in Hamburg."
+    ],
+    answer: "1954 (17. Juli, Hamburg)"
+  },
+  {
+    id: "q18",
+    category: "Persönlichkeiten",
+    question: "Wann wurde Elon Musk geboren?",
+    hints: [
+      "Er ist Teil der Generation X – Kinderzeit in den 1970ern.",
+      "Er wurde in der ersten Hälfte der 1970er in Südafrika geboren.",
+      "1971 – Elon Reeve Musk, 28. Juni."
+    ],
+    answer: "1971 (28. Juni, Pretoria)"
+  },
+  {
+    id: "q19",
+    category: "Geld & Wirtschaft",
+    question: "Wann wurde Amazon-Gründer Jeff Bezos geboren?",
+    hints: [
+      "Er ist fast gleich alt wie Elon Musk, aber ein paar Jahre älter.",
+      "Geboren Anfang der 1960er – Space-Age-Baby mit Geschäftssinn.",
+      "1964 – Jeffrey Preston Bezos, 12. Januar."
+    ],
+    answer: "1964 (12. Januar, New Mexico)"
+  },
+  {
+    id: "q20",
+    category: "Sport",
+    question: "Wann wurde Fußballlegende Pelé geboren?",
+    hints: [
+      "Er spielte schon WM, als viele heutige Stars noch nicht geboren waren.",
+      "Geboren Ende der 1930er – vor Beginn des Zweiten Weltkriegs.",
+      "1940 – Edson Arantes do Nascimento, besser bekannt als Pelé."
+    ],
+    answer: "1940 (23. Oktober, Brasilien)"
+  },
     {
-      "id": "q2",
-      "question": "Ich bin ein Musikinstrument mit Tasten.",
-      "hints": [
-        "Ich habe meist 88 Tasten.",
-        "Ich erzeuge Töne durch Saiten, die von Hämmern angeschlagen werden.",
-        "Es gibt Konzert-, Halb- und Digitalversionen von mir."
-      ],
-      "answer": "Klavier"
-    },
-    {
-      "id": "q3",
-      "question": "Ich bin eine Programmiersprache.",
-      "hints": [
-        "Ich werde oft für Datenanalyse und Wissenschaft genutzt.",
-        "Mein Maskottchen ist keine Schlange, trotz des Namens.",
-        "Beliebte Bibliotheken sind NumPy und pandas."
-      ],
-      "answer": "Python"
-    }
-  ]
+    id: "q21",
+    category: "TV & Medien",
+    question: "Wie viele Hauptmoderatoren hatte die Sendung „Wetten, dass..?“ insgesamt seit ihrem Start?",
+    hints: [
+      "Seit 1981 wechselten sich einige bekannte Gesichter auf dem Sofa ab – aber es waren nicht dutzende.",
+      "Es waren weniger als zehn, aber mehr als drei – die bekanntesten: Gottschalk, Lippert, Lanz, Hunziker.",
+      "Insgesamt fünf Hauptmoderatoren führten durch die Geschichte von „Wetten, dass..?“. "
+    ],
+    answer: "5 Hauptmoderatoren (Gottschalk, Lippert, Lanz, Hunziker, Kerkeling)"
+  },
+  {
+    id: "q22",
+    category: "Geld & Wirtschaft",
+    question: "In welchem Jahr wurde Apple gegründet?",
+    hints: [
+      "Die Geschichte begann in einer Garage – in den wilden 1970ern.",
+      "Genauer gesagt in der zweiten Hälfte der 70er, kurz vor dem Aufkommen des Apple II.",
+      "1976 – Steve Jobs, Steve Wozniak und Ronald Wayne gründeten Apple."
+    ],
+    answer: "1976 (Cupertino, Kalifornien)"
+  },
+  {
+    id: "q23",
+    category: "Gesellschafts- und Videospiele",
+    question: "Wann wurde Facebook gegründet?",
+    hints: [
+      "Das Netzwerk entstand, als Studierende noch ICQ nutzten.",
+      "Mitte der 2000er – als MySpace noch König war.",
+      "2004 – Mark Zuckerberg startete Facebook an der Harvard University."
+    ],
+    answer: "2004 (Harvard University)"
+  },
+  {
+    id: "q24",
+    category: "Geld & Wirtschaft",
+    question: "Wann wurde Amazon gegründet?",
+    hints: [
+      "Als Online-Buchhandlung in den 1990ern – noch bevor Google existierte.",
+      "Mitte der 1990er – Jeff Bezos verschickte Bücher aus der Garage.",
+      "1994 – Amazon wird in Seattle gegründet."
+    ],
+    answer: "1994 (Seattle, USA)"
+  },
+  {
+    id: "q25",
+    category: "Musik & Hits",
+    question: "Wann gründeten sich die Backstreet Boys?",
+    hints: [
+      "Boybands, Baggy-Jeans und Disketten – alles typisch 1990er.",
+      "In der ersten Hälfte der 90er, kurz vor dem großen Teenie-Boom.",
+      "1993 – Gründung der Backstreet Boys in Florida."
+    ],
+    answer: "1993 (Orlando, Florida)"
+  },
+  {
+    id: "q26",
+    category: "Musik & Hits",
+    question: "Wann gründeten sich die Beatles?",
+    hints: [
+      "Vor dem Mondflug, bevor Farbfernsehen selbstverständlich war.",
+      "Ende der 1950er, kurz vor dem weltweiten Beat-Boom.",
+      "1960 – Gründung der Beatles in Liverpool."
+    ],
+    answer: "1960 (Liverpool)"
+  },
+  {
+    id: "q27",
+    category: "Musik & Hits",
+    question: "Wann gründete sich die Band Tic Tac Toe?",
+    hints: [
+      "Mitten in den 1990ern – Bravo-Hits und Girlpower-Ära.",
+      "Mitte der 90er, in Deutschland.",
+      "1995 – Tic Tac Toe wird in Deutschland gegründet."
+    ],
+    answer: "1995 (Deutschland)"
+  },
+  {
+    id: "q28",
+    category: "Musik & Hits",
+    question: "Wann gründete sich die Band Queen?",
+    hints: [
+      "Vor Punk und Disco – als Rock noch Glam war.",
+      "Anfang der 1970er, bevor Freddie Mercury die Weltbühne betrat.",
+      "1970 – Gründung von Queen in London."
+    ],
+    answer: "1970 (London)"
+  },
+  {
+    id: "q29",
+    category: "Musik & Hits",
+    question: "Wann gründeten sich die Rolling Stones?",
+    hints: [
+      "Sie sind älter als viele ihrer Fans – die 1960er waren gerade im Anrollen.",
+      "Frühe 60er, noch bevor die Beatles weltberühmt waren.",
+      "1962 – Rolling Stones gegründet in London."
+    ],
+    answer: "1962 (London)"
+  },
+  {
+    id: "q30",
+    category: "TV & Medien",
+    question: "Wie viele Dritte Programme mit Bild und Ton gehören in Deutschland zum öffentlich-rechtlichen Rundfunk?",
+    hints: [
+      "Wir zählen hier die regionalen ARD-Sender – also mehr als fünf.",
+      "Zwischen acht und zehn – von BR bis SWR ist alles dabei.",
+      "Neun Dritte Programme mit Bild und Ton gehören zur ARD."
+    ],
+    answer: "9 Dritte Programme (BR, HR, MDR, NDR, Radio Bremen TV, RBB, SR, SWR, WDR)"
+  },
+  {
+    id: "q31",
+    category: "Menschen & Gesellschaft",
+    question: "Wie viele Zähne hat ein erwachsener Mensch normalerweise insgesamt?",
+    hints: [
+      "Wir zählen das komplette Standardgebiss – nicht die Milchzähne.",
+      "Mit Weisheitszähnen sind es mehr als 28.",
+      "32 Zähne – inklusive vier Weisheitszähnen."
+    ],
+    answer: "32"
+  },
+  {
+    id: "q32",
+    category: "Menschen & Gesellschaft",
+    question: "Wie lang ist der Dünndarm eines Menschen durchschnittlich (in Metern)?",
+    hints: [
+      "Mehr als ein Auto breit – deutlich länger als 3 Meter.",
+      "Zwischen 5 und 7 Metern – je nach Person.",
+      "Rund 6 Meter im Durchschnitt."
+    ],
+    answer: "≈ 6 m"
+  },
+  {
+    id: "q33",
+    category: "Geografie",
+    question: "Wie weit ist die Luftlinie zwischen Flughafen München (MUC) und Mallorca/Palma (PMI) in Kilometern?",
+    hints: [
+      "Deutlich über 1.000 km – Mittelmeerurlaub ist kein Katzensprung.",
+      "Zwischen 1.200 und 1.250 km.",
+      "≈ 1.220 km Luftlinie."
+    ],
+    answer: "≈ 1.220 km"
+  },
+  {
+    id: "q34",
+    category: "Geografie",
+    question: "Wie weit ist die Luftlinie zwischen Flughafen München (MUC) und Peking (PEK) in Kilometern?",
+    hints: [
+      "Weiter als nach New York – wir fliegen Richtung Asien.",
+      "Zwischen 7.500 und 8.000 km.",
+      "≈ 7.720 km Luftlinie."
+    ],
+    answer: "≈ 7.720 km"
+  },
+  {
+    id: "q35",
+    category: "Geografie",
+    question: "Wie weit ist die Luftlinie zwischen Kopenhagen (CPH) und Johannesburg (JNB) in Kilometern?",
+    hints: [
+      "Von Nordeuropa bis ins südliche Afrika – richtig weit.",
+      "Zwischen 9.000 und 9.400 km.",
+      "≈ 9.210 km Luftlinie."
+    ],
+    answer: "≈ 9.210 km"
+  },
+  {
+    id: "q36",
+    category: "Geografie",
+    question: "Wie weit ist die Luftlinie zwischen der Sagrada Família in Barcelona und dem Taj Mahal in Agra (km)?",
+    hints: [
+      "Von Südeuropa bis nach Indien – mehrere Zeitzonen dazwischen.",
+      "Zwischen 6.800 und 7.100 km.",
+      "≈ 6.930 km Luftlinie."
+    ],
+    answer: "≈ 6.930 km"
+  },
+  {
+    id: "q37",
+    category: "Geografie",
+    question: "Wie viele Städte in Deutschland haben mehr als 100.000 Einwohner?",
+    hints: [
+      "Wir sprechen von Großstädten nach deutscher Definition.",
+      "Es sind über 70, aber unter 90.",
+      "Rund 82 Großstädte."
+    ],
+    answer: "≈ 82"
+  },
+  {
+    id: "q38",
+    category: "Rekorde",
+    question: "Wie hoch ist der Burj Khalifa (in Metern)?",
+    hints: [
+      "Höher als jeder andere Wolkenkratzer – Weltrekord.",
+      "Über 800 Meter – also fast ein Kilometer Himmel.",
+      "828 Meter."
+    ],
+    answer: "828 m"
+  },
+  {
+    id: "q39",
+    category: "Geografie",
+    question: "Wie hoch ist der Eiffelturm inklusive Antenne (in Metern)?",
+    hints: [
+      "Deutlich über 300 Meter – für 1889 eine Ansage.",
+      "Zwischen 320 und 330 Metern.",
+      "324 Meter."
+    ],
+    answer: "324 m"
+  },
+  {
+    id: "q40",
+    category: "München",
+    question: "Wie hoch ist der Olympiaturm in München (in Metern)?",
+    hints: [
+      "Er ist höher als der Eiffelturm? Nein – aber kein Leichtgewicht.",
+      "Zwischen 280 und 300 Metern.",
+      "291 Meter."
+    ],
+    answer: "291 m"
+  },
+  {
+    id: "q41",
+    category: "Sport",
+    question: "Wie hoch ist ein offizielles Fußballtor (in Zentimetern)?",
+    hints: [
+      "Da passt kein Doppeldecker durch, aber ein Torwart schon – weltweite Standardgröße.",
+      "Etwa so hoch wie ein kleiner Raum – zwischen 230 und 250 cm.",
+      "244 cm hoch misst ein Fußballtor laut FIFA-Regelwerk."
+    ],
+    answer: "244 cm"
+  },
+  {
+    id: "q42",
+    category: "Geografie",
+    question: "Wie hoch ist das Brandenburger Tor in Berlin (in Metern)?",
+    hints: [
+      "Nicht zu verwechseln mit einem Hochhaus – es ist eher historisch imposant.",
+      "Deutlich niedriger als der Berliner Fernsehturm, aber über 20 Meter.",
+      "26 Meter hoch."
+    ],
+    answer: "26 m"
+  },
+  {
+    id: "q43",
+    category: "Kunst",
+    question: "Wie hoch ist die Sagrada Família in Barcelona (in Metern)?",
+    hints: [
+      "Gaudís Meisterwerk wächst seit über 140 Jahren – und ist noch nicht fertig.",
+      "Über 150 Meter – damit höher als die meisten Kirchen der Welt.",
+      "172,5 Meter hoch soll sie nach Fertigstellung werden."
+    ],
+    answer: "172,5 m"
+  },
+  {
+    id: "q44",
+    category: "Sport",
+    question: "Wie hoch ist ein Handballtor (in Zentimetern)?",
+    hints: [
+      "Deutlich kleiner als ein Fußballtor – passt in fast jede Sporthalle.",
+      "Zwischen 190 und 210 cm hoch.",
+      "200 cm hoch – exakt zwei Meter."
+    ],
+    answer: "200 cm"
+  },
+  {
+    id: "q45",
+    category: "Sport",
+    question: "Wie hoch ist die Querlatte eines Field Goals im American Football (in Zentimetern)?",
+    hints: [
+      "Wer trifft, kickt höher als jedes Fußballtor erlaubt.",
+      "Etwa doppelt so hoch wie ein Handballtor – weit über vier Meter.",
+      "305 cm über dem Boden (10 Fuß)."
+    ],
+    answer: "305 cm"
+  },
+  {
+    id: "q46",
+    category: "Gesellschafts- und Videospiele",
+    question: "Wie lang ist eine klassische Bowlingbahn – von der Foullinie bis zum letzten Kegel?",
+    hints: [
+      "Weniger als 30 Meter – aber deutlich länger als eine Kegelbahn im Keller.",
+      "Etwas über 18 Meter – präzise Maßarbeit für Strikes.",
+      "18,29 Meter (60 Fuß)."
+    ],
+    answer: "18,29 m"
+  },
+  {
+    id: "q47",
+    category: "Essen & Trinken",
+    question: "Wann eröffnete der erste McDonald's in Deutschland?",
+    hints: [
+      "In den 1970ern, als Schlaghosen und VW Käfer den Ton angaben.",
+      "In München – lange vor Chicken McNuggets und McCafé.",
+      "1971 – erster McDonald's Deutschlands eröffnete in München."
+    ],
+    answer: "1971 (München)"
+  },
+  {
+    id: "q48",
+    category: "Essen & Trinken",
+    question: "Wann eröffnete die erste Subway-Filiale in Deutschland?",
+    hints: [
+      "Das Sandwich kam deutlich später als der Burger – jenseits der 1990er.",
+      "In der Ära der Flip-Phones – frühe 2000er.",
+      "2001 – erste Subway-Filiale in Deutschland."
+    ],
+    answer: "2001"
+  },
+  {
+    id: "q49",
+    category: "Essen & Trinken",
+    question: "Wann eröffnete der erste IKEA in Deutschland?",
+    hints: [
+      "Schrauben, Imbusschlüssel und Köttbullar – schon seit den 1970ern hierzulande.",
+      "Mitten im Wirtschaftswunder, aber noch vor der Wende.",
+      "1974 – erster IKEA Deutschlands in München-Eching."
+    ],
+    answer: "1974 (München-Eching)"
+  },
+  {
+    id: "q50",
+    category: "Essen & Trinken",
+    question: "Wann eröffnete der erste Burger King in Deutschland?",
+    hints: [
+      "Fast zeitgleich mit McDonald's, aber ein paar Jahre später.",
+      "Mitte der 1970er, in Berlin.",
+      "1976 – erster Burger King Deutschlands eröffnete in Berlin."
+    ],
+    answer: "1976 (Berlin)"
+  },
+  {
+    id: "q51",
+    category: "Essen & Trinken",
+    question: "In welchem Jahr eröffnete der erste KFC in Deutschland?",
+    hints: [
+      "Vor McDonald's und Burger King – Pionierzeit der US-Fastfood-Ketten hierzulande.",
+      "Ende der 1960er, in Frankfurt am Main.",
+      "1968 – erste Filiale an der Hansaallee in Frankfurt."
+    ],
+    answer: "1968 (Frankfurt am Main)"
+  },
+  {
+    id: "q52",
+    category: "München",
+    question: "Seit wann wird Augustiner offiziell in München gebraut?",
+    hints: [
+      "Mittelalter – als Klöster noch munter mitmalzten.",
+      "14. Jahrhundert – Münchens älteste Brauerei.",
+      "1328 – urkundlich belegt."
+    ],
+    answer: "1328"
+  },
+  {
+    id: "q53",
+    category: "Essen & Trinken",
+    question: "Seit wann wird Tegernseer (Herzoglich Bayerisches Brauhaus) nachweislich gebraut?",
+    hints: [
+      "Es kursiert eine Legende um 1050 – gesichert ist ein späteres Datum.",
+      "17. Jahrhundert – mit dokumentierten Braurechten.",
+      "1675 – dokumentierte Wurzeln (Abt Bernhard Wenzel)."
+    ],
+    answer: "1675 (dokumentiert)"
+  },
+  {
+    id: "q54",
+    category: "Essen & Trinken",
+    question: "Seit wann wird OeTTINGER gebraut?",
+    hints: [
+      "Früher als die Dampflok – noch vor 1800.",
+      "18. Jahrhundert – in Oettingen (Schwaben).",
+      "1731 – Gründungsjahr."
+    ],
+    answer: "1731"
+  },
+  {
+    id: "q55",
+    category: "Geschichte",
+    question: "Wie viele Jahre war Elizabeth II. Königin des Vereinigten Königreichs?",
+    hints: [
+      "Länger als Queen Victoria – Rekord in Britannien.",
+      "Über sieben Jahrzehnte – exakt über 70 Jahre.",
+      "70 Jahre (genau 70 Jahre und 214 Tage)."
+    ],
+    answer: "70 Jahre"
+  },
+  {
+    id: "q56",
+    category: "Rekorde",
+    question: "Wie groß war der größte Mensch aller Zeiten (in Zentimetern)?",
+    hints: [
+      "Größer als jede Türzarge – weltweiter Rekord.",
+      "Über 260 cm – jenseits aller Basketballträume.",
+      "272 cm – Robert Wadlow."
+    ],
+    answer: "272 cm"
+  },
+  {
+    id: "q57",
+    category: "Sport",
+    question: "Wie viele Sekunden nach Anpfiff fiel das schnellste Tor der Bundesliga-Geschichte?",
+    hints: [
+      "Es dauert kürzer als ein „Moin“ – einstellig.",
+      "Gleich zweimal erzielt – Leverkusen und Hoffenheim sind im Spiel.",
+      "9 Sekunden – Bellarabi (2014) und Volland (2015)."
+    ],
+    answer: "9 Sekunden"
+  },
+  {
+    id: "q58",
+    category: "Macht & Politik",
+    question: "Wie viele Jahre war Angela Merkel Bundeskanzlerin?",
+    hints: [
+      "Länger als eine Schulzeit – aber kürzer als Kohl.",
+      "Von 2005 bis 2021 – vier Amtszeiten.",
+      "16 Jahre."
+    ],
+    answer: "16 Jahre"
+  },
+  {
+    id: "q59",
+    category: "TV & Medien",
+    question: "Wann wurde das erste YouTube-Video „Me at the zoo“ veröffentlicht?",
+    hints: [
+      "Mitte der 2000er – YouTube war gerade erfunden.",
+      "Im April 2005 – Elefanten im San Diego Zoo spielen die Hauptrolle.",
+      "23. April 2005."
+    ],
+    answer: "23.04.2005"
+  },
+  {
+    id: "q60",
+    category: "Musik & Hits",
+    question: "Wann wurde „Gangnam Style“ auf YouTube veröffentlicht?",
+    hints: [
+      "Vor der großen TikTok-Ära – das erste Milliarden-Phänomen.",
+      "Sommer 2012 – mit Reiter-Moves in Anzug und Sonnenbrille.",
+      "15. Juli 2012."
+    ],
+    answer: "15.07.2012"
+  },
+  {
+    id: "q61",
+    category: "TV & Medien",
+    question: "In welchem Jahr rollte der „Harlem Shake“-Trend durchs Netz?",
+    hints: [
+      "Zwischen „Call Me Maybe“ und „What Does the Fox Say?“.",
+      "Anfang des Jahrzehnts – viraler Februar.",
+      "2013."
+    ],
+    answer: "2013"
+  },
+  {
+    id: "q62",
+    category: "Geld & Wirtschaft",
+    question: "Wie viele Millionäre (in Mio.) gibt es laut Capgemini World Wealth Report in Deutschland?",
+    hints: [
+      "Deutschland liegt global hinter USA & Japan – aber in Europa vorn.",
+      "Rund anderthalb Millionen – Tendenz 2024 leicht rückläufig.",
+      "≈ 1,61 Mio. (2024)."
+    ],
+    answer: "≈ 1,61 Mio. (2024)"
+  },
+  {
+    id: "q63",
+    category: "TV & Medien",
+    question: "Wie viele Millionen-Gewinner gab es bisher bei „Wer wird Millionär?“ (Deutschland)?",
+    hints: [
+      "Es ist nicht unzählbar – eher eine exklusive Hall of Fame.",
+      "Zwischen 10 und 20 – seit 1999.",
+      "16 Gewinner."
+    ],
+    answer: "16"
+  },
+  {
+    id: "q64",
+    category: "Essen & Trinken",
+    question: "Wann nahm Dr. Oetker den „Pizzaburger“ ins Sortiment auf?",
+    hints: [
+      "Nach der Smartphone-Revolution – kein 90er-Gag.",
+      "Frühe 2010er – exakt zum Herbststart im Handel.",
+      "September 2013."
+    ],
+    answer: "09/2013"
+  },
+  {
+    id: "q65",
+    category: "Essen & Trinken",
+    question: "Wie viel Zucker enthält eine 0,5-Liter-Flasche Coca-Cola (in Gramm)?",
+    hints: [
+      "Mehr als 40 g – aber keine ganze Zuckerdose.",
+      "≈ 10,6 g je 100 ml – rechne mal fünf.",
+      "≈ 53 g."
+    ],
+    answer: "≈ 53 g"
+  },
+  {
+    id: "q66",
+    category: "TV & Medien",
+    question: "Wann erschien „Haus des Geldes“ erstmals auf Netflix (weltweit re-cut)?",
+    hints: [
+      "Erst im spanischen TV 2017, danach Netflix-Übernahme.",
+      "Ende 2017 begann der weltweite Netflix-Release.",
+      "20. Dezember 2017 (Part 1, re-cut)."
+    ],
+    answer: "20.12.2017"
+  },
+  {
+    id: "q67",
+    category: "TV & Medien",
+    question: "Wann startete „Stranger Things“ auf Netflix?",
+    hints: [
+      "Synthwave, Walkie-Talkies, 80s-Vibes – Mitte der 2010er.",
+      "Sommerstart mit Demogorgon und D&D.",
+      "15. Juli 2016."
+    ],
+    answer: "15.07.2016"
+  },
+  {
+    id: "q68",
+    category: "Geschichte",
+    question: "Wann trat Hawaii als 50. Bundesstaat den USA bei?",
+    hints: [
+      "Nach Alaska – beide späte 1950er.",
+      "Spätsommer 1959 – Unterschrift des Präsidenten.",
+      "21. August 1959."
+    ],
+    answer: "21.08.1959"
+  },
+  {
+    id: "q69",
+    category: "TV & Medien",
+    question: "Wie viele Folgen „TV total“ gab es bis zum Ende der Raab-Ära 2015 (insgesamt)?",
+    hints: [
+      "Vier Abende pro Woche über viele Jahre ergeben… viele.",
+      "Über 2.200 – knapp zweieinhalb Tausend.",
+      "≈ 2.303 Folgen (1999–2015)."
+    ],
+    answer: "≈ 2.303 (bis 16.12.2015)"
+  },
+  {
+    id: "q70",
+    category: "Geografie",
+    question: "Wie hoch ist das Brandenburger Tor – inklusive Quadriga-Spitze (in Metern)?",
+    hints: [
+      "Kein Wolkenkratzer – aber Hauptstadt-Ikone.",
+      "Über 20 Meter – knapp unter 30.",
+      "≈ 26 Meter mit Quadriga."
+    ],
+    answer: "≈ 26 m (mit Quadriga)"
+  },
+  {
+    id: "q71",
+    category: "Kunst",
+    question: "Wie hoch ist die Sagrada Família (final geplant) in Barcelona (in Metern)?",
+    hints: [
+      "Höher als die meisten Kathedralen – moderner Turmbau.",
+      "Über 170 Meter – mit Jesu-Turm als Spitze.",
+      "172,5 Meter (Planstand)."
+    ],
+    answer: "172,5 m (geplant/final)"
+  },
+  {
+    id: "q72",
+    category: "TV & Medien",
+    question: "Wie viele Folgen hatte die Serie „Lindenstraße“ insgesamt bis zu ihrem Ende?",
+    hints: [
+      "Sie lief länger als so manche Ehe – über drei Jahrzehnte.",
+      "Zwischen 1.700 und 1.800 Episoden, immer sonntags.",
+      "1.758 Folgen – von 1985 bis 2020."
+    ],
+    answer: "1.758 Folgen (1985–2020)"
+  },
+  {
+    id: "q73",
+    category: "TV & Medien",
+    question: "Wann wurde die erste Ausgabe der „Tagesschau“ ausgestrahlt?",
+    hints: [
+      "Sie begann in Schwarz-Weiß – als es noch keine Satelliten gab.",
+      "Frühe 1950er, kurz nach Gründung der ARD.",
+      "26. Dezember 1952."
+    ],
+    answer: "26.12.1952"
+  },
+  {
+    id: "q74",
+    category: "Technik",
+    question: "Wann wurde das erste iPhone offiziell vorgestellt?",
+    hints: [
+      "Das Jahr, in dem Facebook noch an Unis war und Nokia herrschte.",
+      "Mitte der 2000er – Steve Jobs präsentierte es im Januar.",
+      "9. Januar 2007."
+    ],
+    answer: "09.01.2007"
+  },
+  {
+    id: "q75",
+    category: "Sport",
+    question: "Wie schnell fiel der schnellste Knock-out in der UFC-Geschichte?",
+    hints: [
+      "Kürzer als ein Schluck Wasser – noch einstellig.",
+      "Unter fünf Sekunden – Jorge Masvidal kennt den Gegner kaum.",
+      "5 Sekunden – 2019 gegen Ben Askren."
+    ],
+    answer: "5 Sekunden (Masvidal 2019)"
+  },
+  {
+    id: "q76",
+    category: "Macht & Politik",
+    question: "Wann wurde der § 103 StGB („Majestätsbeleidigung“) gestrichen?",
+    hints: [
+      "Nach der berühmten Böhmermann-Affäre.",
+      "Ende der 2010er, durch Bundestagsbeschluss.",
+      "1. Januar 2018."
+    ],
+    answer: "01.01.2018"
+  },
+  {
+    id: "q77",
+    category: "Macht & Politik",
+    question: "Wie viele Bundeskanzler gab es bisher in der Bundesrepublik Deutschland (Stand 2025)?",
+    hints: [
+      "Von Adenauer bis Scholz – gar nicht so viele.",
+      "Unter zehn, aber über sieben.",
+      "9 Bundeskanzler (Adenauer bis Scholz)."
+    ],
+    answer: "9 (Stand 2025)"
+  },
+  {
+    id: "q78",
+    category: "Macht & Politik",
+    question: "Wie viele Mitgliedsstaaten hat die Europäische Union aktuell?",
+    hints: [
+      "Seit dem Brexit ist es keine runde Zahl mehr mit 28.",
+      "Ein Land weniger als 28.",
+      "27 Mitgliedsstaaten."
+    ],
+    answer: "27 (Stand 2025)"
+  },
+  {
+    id: "q79",
+    category: "Geografie",
+    question: "Wie viele Länder gibt es auf dem afrikanischen Kontinent?",
+    hints: [
+      "Mehr als 50, weniger als 60.",
+      "Knapp über 50 – UNO-Mitglieder gerechnet.",
+      "54 Länder."
+    ],
+    answer: "54"
+  },
+  {
+    id: "q80",
+    category: "Geografie",
+    question: "Wie viele Länder liegen in Südamerika?",
+    hints: [
+      "Weniger als in Afrika – dafür viel Fußball-Leidenschaft.",
+      "Zwischen 10 und 15 Staaten.",
+      "12 Länder."
+    ],
+    answer: "12"
+  },
+  {
+    id: "q81",
+    category: "Gesellschaft",
+    question: "Wie viele gesetzliche Feiertage gibt es in Bayern im Jahr?",
+    hints: [
+      "Mehr als in jedem anderen Bundesland.",
+      "Zwischen 12 und 15 – je nach Region leicht variierend.",
+      "13 gesetzliche Feiertage."
+    ],
+    answer: "13"
+  },
+  {
+    id: "q82",
+    category: "Geschichte",
+    question: "Wie viele Schaltjahre gab es seit 1900 bis einschließlich 2024?",
+    hints: [
+      "Etwa alle vier Jahre – aber mit Jahrhundert-Ausnahmen.",
+      "Etwas über 30 – rechne 125 / 4 minus Korrekturen.",
+      "31 Schaltjahre."
+    ],
+    answer: "31 (1904–2024)"
+  },
+  {
+    id: "q83",
+    category: "TV & Medien",
+    question: "Wann ging ProSieben erstmals auf Sendung?",
+    hints: [
+      "Als private Sender boomten und Neonfarben modern waren.",
+      "Ende der 1980er.",
+      "1. Januar 1989."
+    ],
+    answer: "01.01.1989"
+  },
+  {
+    id: "q84",
+    category: "Gesellschaft",
+    question: "Wie viele Verkehrsunfälle gab es in Deutschland 2023 (in Mio.)?",
+    hints: [
+      "Weit über zwei Millionen – aber unter drei.",
+      "Rund 2,4 Millionen laut Destatis.",
+      "≈ 2,43 Mio. registrierte Unfälle."
+    ],
+    answer: "≈ 2,43 Mio. (2023)"
+  },
+  {
+    id: "q85",
+    category: "Sport",
+    question: "Wie viele NBA-Titel gewannen die Los Angeles Lakers bislang?",
+    hints: [
+      "Einer der Rekordhalter – gleichauf mit Boston.",
+      "Zwischen 16 und 18.",
+      "17 Titel (Stand 2024)."
+    ],
+    answer: "17 (Stand 2024)"
+  },
+  {
+    id: "q86",
+    category: "Sport",
+    question: "Wie viele Meisterschaften gewann der FC Bayern München in der Bundesliga bis 2024?",
+    hints: [
+      "Mehr als doppelt so viele wie der Zweitplatzierte.",
+      "Im oberen 30er-Bereich.",
+      "33 Titel (Stand 2024)."
+    ],
+    answer: "33 (Stand 2024)"
+  },
+  {
+    id: "q87",
+    category: "Geld & Wirtschaft",
+    question: "Wie hoch ist das durchschnittliche monatliche Brutto-Vollzeitgehalt in Deutschland 2024?",
+    hints: [
+      "Etwas über 4 000 Euro – Tendenz steigend.",
+      "Zwischen 4 200 und 4 300 Euro laut Destatis.",
+      "≈ 4 250 € brutto (2024)."
+    ],
+    answer: "≈ 4 250 € brutto (2024)"
+  },
+  {
+    id: "q88",
+    category: "Essen & Trinken",
+    question: "Wie viele Tic Tacs sind in einer klassischen 49 g Packung enthalten?",
+    hints: [
+      "Einzeln kaum zählbar, aber wir reden von zwei-stelligen Zahlen.",
+      "Zwischen 35 und 50 Stück – je nach Variante.",
+      "≈ 38 Tic Tacs in 49 g."
+    ],
+    answer: "≈ 38 Stück"
+  },
+  {
+    id: "q89",
+    category: "München",
+    question: "Wie groß ist das Gelände des ehemaligen Flughafens Tempelhof – heute Tempelhofer Feld (in Hektar)?",
+    hints: [
+      "Größer als der Central Park in New York? Fast!",
+      "Über 300 Hektar – eine der größten Stadtflächen Europas.",
+      "≈ 386 Hektar (3,86 km²)."
+    ],
+    answer: "≈ 386 ha (3,86 km²)"
+  },
+  {
+    id: "q90",
+    category: "München",
+    question: "Wie viele U-Bahn-Stationen umfasst das MVG-Netz in München (Stand 2024)?",
+    hints: [
+      "Weit über 80, aber unter 110 Stationen.",
+      "Neueröffnungen 2023 inklusive.",
+      "≈ 100 Stationen (Stand 2024)."
+    ],
+    answer: "≈ 100 (Stand 2024)"
+  },
+  {
+    id: "q91",
+    category: "Kunst",
+    question: "Wie hoch war der Verkaufspreis des teuersten Gemäldes aller Zeiten – Leonardo da Vincis „Salvator Mundi“ (in Mio. US-Dollar)?",
+    hints: [
+      "Deutlich über 300 Millionen – Auktionsrekord von Christie’s.",
+      "Knapp unter 500 Millionen.",
+      "≈ 450,3 Mio. US-Dollar (2017)."
+    ],
+    answer: "≈ 450,3 Mio. USD (2017)"
+  },
+  {
+    id: "q92",
+    category: "Macht & Politik",
+    question: "Wie viele Streifen hat die Flagge der Vereinigten Staaten?",
+    hints: [
+      "Sie stehen für die ursprünglichen Kolonien – nicht für die heutigen Bundesstaaten.",
+      "Zweistellig, aber unter 20.",
+      "13 Streifen."
+    ],
+    answer: "13"
+  },
+  {
+    id: "q93",
+    category: "Kunst",
+    question: "Wie viele Primzahlen gibt es bis einschließlich 100?",
+    hints: [
+      "Es sind mehr als 20, aber keine 30.",
+      "Knapp ein Vierteljahrhundert – mathematisch gesehen.",
+      "25 Primzahlen."
+    ],
+    answer: "25"
+  },
+  {
+    id: "q94",
+    category: "Menschen & Gesellschaft",
+    question: "Wie viele Knochen hat ein erwachsener Mensch normalerweise?",
+    hints: [
+      "Mehr als 200 – aber nicht viel mehr.",
+      "Genau genommen knapp über 200.",
+      "206 Knochen."
+    ],
+    answer: "206"
+  },
+  {
+    id: "q95",
+    category: "Essen & Trinken",
+    question: "Zu wie viel Prozent besteht eine Gurke aus Wasser?",
+    hints: [
+      "So saftig wie ein kleiner Schwamm – weit über 80 %. ",
+      "Zwischen 90 und 97 Prozent.",
+      "Rund 95 %."
+    ],
+    answer: "≈ 95 %"
+  },
+  {
+    id: "q96",
+    category: "TV & Medien",
+    question: "Wie viele Kugeln trafen den Rapper 50 Cent bei dem Anschlag im Jahr 2000?",
+    hints: [
+      "Mehr als nur ein Streifschuss – zweistellig wurde es nicht.",
+      "Zwischen acht und zehn.",
+      "Neun Treffer."
+    ],
+    answer: "9"
+  },
+  {
+    id: "q97",
+    category: "Geld & Wirtschaft",
+    question: "Wie viel wiegt eine 2-Euro-Münze (in Gramm)?",
+    hints: [
+      "Sie ist schwerer als 1-Euro, aber unter 10 Gramm.",
+      "Zwischen 8 und 9 Gramm.",
+      "8,5 Gramm."
+    ],
+    answer: "8,5 g"
+  },
+  {
+    id: "q98",
+    category: "TV & Medien",
+    question: "Wie viele Folgen von „Breaking Bad“ gibt es insgesamt?",
+    hints: [
+      "Fünf Staffeln – also keine Hunderte.",
+      "Zwischen 60 und 65.",
+      "62 Folgen."
+    ],
+    answer: "62"
+  },
+  {
+    id: "q99",
+    category: "TV & Medien",
+    question: "Wie lange dauert „Der Pate“ (Teil 1) in der Kinofassung – in Minuten?",
+    hints: [
+      "Über 160 Minuten – ein epischer Klassiker.",
+      "Zwischen 170 und 180.",
+      "175 Minuten."
+    ],
+    answer: "175"
+  },
+  {
+    id: "q100",
+    category: "TV & Medien",
+    question: "Wie lange dauert „Die Verurteilten“ (The Shawshank Redemption) in Minuten?",
+    hints: [
+      "Kein Kurzfilm – deutlich über zwei Stunden.",
+      "Zwischen 140 und 145 Minuten.",
+      "142 Minuten."
+    ],
+    answer: "142"
+  },
+  {
+    id: "q101",
+    category: "TV & Medien",
+    question: "Wie lange dauert „Pulp Fiction“ in Minuten?",
+    hints: [
+      "Mehr als 2½ Stunden – Koffer inklusive.",
+      "Zwischen 150 und 160 Minuten.",
+      "154 Minuten."
+    ],
+    answer: "154"
+  },
+  {
+    id: "q102",
+    category: "TV & Medien",
+    question: "Wie lange dauert „Der Herr der Ringe: Die zwei Türme“ (Kinofassung) in Minuten?",
+    hints: [
+      "Nicht die Extended Version – aber immer noch sehr lang.",
+      "Zwischen 175 und 180 Minuten.",
+      "179 Minuten."
+    ],
+    answer: "179"
+  },
+  {
+    id: "q103",
+    category: "Geld & Wirtschaft",
+    question: "Wie viele Länder nutzen den Euro als offizielle Währung?",
+    hints: [
+      "Seit 2023 ist Kroatien dazugekommen.",
+      "Zwischen 19 und 21.",
+      "20 Länder."
+    ],
+    answer: "20 (Eurozone)"
+  },
+  {
+    id: "q104",
+    category: "Verkehr & Regeln",
+    question: "Wie hoch ist das Mindestbußgeld in Deutschland fürs Radfahren mit dem Handy am Ohr?",
+    hints: [
+      "Es ist mehr als ein Parkticket, aber kein Monatslohn.",
+      "Zwischen 50 und 60 Euro.",
+      "55 Euro."
+    ],
+    answer: "55 €"
+  },
+  {
+    id: "q105",
+    category: "Musik & Hits",
+    question: "Wie lang ist „Bohemian Rhapsody“ von Queen – in Sekunden?",
+    hints: [
+      "Fast sechs Minuten – Oper inklusive.",
+      "Zwischen 350 und 360 Sekunden.",
+      "355 Sekunden (ca. 5:55)."
+    ],
+    answer: "355 s"
+  },
+  {
+    id: "q106",
+    category: "Musik & Hits",
+    question: "Wie lang ist „Blinding Lights“ von The Weeknd (in Sekunden)?",
+    hints: [
+      "Knapp sechs Minuten? Nee – Radiolänge.",
+      "Etwa 3:20 Minuten.",
+      "≈ 200 Sekunden (ca. 3:20)."
+    ],
+    answer: "≈ 200 s"
+  },
+  {
+    id: "q107",
+    category: "Musik & Hits",
+    question: "Wie lang ist „Despacito“ von Luis Fonsi feat. Daddy Yankee (in Sekunden, Originalversion)?",
+    hints: [
+      "Ein echter Sommerhit – länger als 3 Minuten.",
+      "Unter fünf Minuten, über dreieinhalb.",
+      "≈ 227 Sekunden (ca. 3:47)."
+    ],
+    answer: "≈ 227 s"
+  },
+  {
+    id: "q108",
+    category: "Musik & Hits",
+    question: "Wie lang ist „I Will Always Love You“ von Whitney Houston (in Sekunden, Single/Albumversion)?",
+    hints: [
+      "Definitiv über vier Minuten.",
+      "Knapp viereinhalb Minuten.",
+      "≈ 271 Sekunden (ca. 4:31)."
+    ],
+    answer: "≈ 271 s"
+  },
+  {
+    id: "q109",
+    category: "Musik & Hits",
+    question: "Wie lang ist „Lose Yourself“ von Eminem (in Sekunden)?",
+    hints: [
+      "Kein Kurztrack – über fünf Minuten.",
+      "Etwa 5:26 Minuten.",
+      "≈ 326 Sekunden."
+    ],
+    answer: "≈ 326 s"
+  },
+  {
+    id: "q110",
+    category: "Sport",
+    question: "Wie viele Nationen haben bisher (bis 2022) einen FIFA-WM-Titel der Männer gewonnen?",
+    hints: [
+      "Es sind weniger als zehn.",
+      "Zwischen sieben und neun.",
+      "8 Nationen (URU, ITA, GER, BRA, ENG, ARG, FRA, ESP)."
+    ],
+    answer: "8"
+  },
+  {
+    id: "q111",
+    category: "Musik & Hits",
+    question: "Wie lang ist „Smells Like Teen Spirit“ von Nirvana (in Sekunden)?",
+    hints: [
+      "Länger als Radiostandard 3:30.",
+      "Ungefähr 5 Minuten.",
+      "≈ 301 Sekunden (ca. 5:01)."
+    ],
+    answer: "≈ 301 s"
+  },
+  {
+    id: "q112",
+    category: "Rekorde",
+    question: "Wie schnell war der schnellste jemals gemessene ICE (Würzburg–Fulda) in km/h?",
+    hints: [
+      "Weit jenseits 300 km/h.",
+      "Über 400? Fast – knapp darunter.",
+      "≈ 406,9 km/h (Testfahrt)."
+    ],
+    answer: "≈ 406,9 km/h"
+  },
+  {
+    id: "q113",
+    category: "Geschichte",
+    question: "Wann fand die erste bemannte Mondlandung statt?",
+    hints: [
+      "Späte 1960er – Space Race Finale.",
+      "Sommer 1969.",
+      "20. Juli 1969 (Apollo 11)."
+    ],
+    answer: "20.07.1969"
+  },
+  {
+    id: "q114",
+    category: "Menschen & Gesellschaft",
+    question: "Wie viele Rippen hat ein erwachsener Mensch normalerweise?",
+    hints: [
+      "Es sind Paare – links und rechts gleich.",
+      "Zwischen 20 und 30 insgesamt.",
+      "24 (12 Paare)."
+    ],
+    answer: "24"
+  },
+  {
+    id: "q115",
+    category: "Rekorde",
+    question: "Wie viele Geldautomaten gibt es in der Antarktis?",
+    hints: [
+      "Nicht viele – aber mehr als null.",
+      "An einer US-Station stehen beide direkt nebeneinander.",
+      "2 (McMurdo-Station)."
+    ],
+    answer: "2"
+  },
+  {
+    id: "q116",
+    category: "Geld & Wirtschaft",
+    question: "Wann wurde Bitcoin eingeführt (Start des Netzwerks/Genesis-Block)?",
+    hints: [
+      "Nach der Finanzkrise – nicht vor 2008.",
+      "Ganz zu Beginn der 2010er.",
+      "3. Januar 2009."
+    ],
+    answer: "03.01.2009"
+  },
+  {
+    id: "q117",
+    category: "Menschen & Gesellschaft",
+    question: "Wie viel Prozent der Menschen sind Linkshänder (global, grob)?",
+    hints: [
+      "Einstellig? Knapp zweistellig.",
+      "Zwischen 9 % und 12 %. ",
+      "≈ 10 %."
+    ],
+    answer: "≈ 10 %"
+  },
+  {
+    id: "q118",
+    category: "Geografie",
+    question: "Wie lang ist der Nil (in Kilometern, üblicher Angabe)?",
+    hints: [
+      "Größer als 6.000 km.",
+      "Zwischen 6.500 und 6.700 km.",
+      "≈ 6.650 km."
+    ],
+    answer: "≈ 6.650 km"
+  },
+  {
+    id: "q119",
+    category: "Geografie",
+    question: "Durch wie viele Länder fließt die Donau (Quelle bis Mündung)?",
+    hints: [
+      "Es sind deutlich mehr als fünf.",
+      "Zwischen neun und elf.",
+      "10 Länder."
+    ],
+    answer: "10"
+  },
+  {
+    id: "q120",
+    category: "Tiere",
+    question: "Wie viele Herzen hat ein Oktopus?",
+    hints: [
+      "Mehr als eins – das erklärt die Kondition.",
+      "Genau drei – zwei für die Kiemen, eins für den Rest.",
+      "3."
+    ],
+    answer: "3"
+  },
+  {
+    id: "q121",
+    category: "Menschen & Gesellschaft",
+    question: "Wie viel Prozent unserer DNA stimmen grob mit der einer Banane überein?",
+    hints: [
+      "Über die Hälfte, aber kein Apfelvergleich.",
+      "Zwischen 55 % und 65 %.",
+      "≈ 60 % (vereinfachte Vergleichszahl)."
+    ],
+    answer: "≈ 60 %"
+  },
+  {
+    id: "q122",
+    category: "Persönlichkeiten",
+    question: "Wie alt wurde der Musiker Prince?",
+    hints: [
+      "Geboren 1958, gestorben 2016.",
+      "Unter 60 – aber über 50.",
+      "57 Jahre."
+    ],
+    answer: "57"
+  },
+  {
+    id: "q123",
+    category: "Persönlichkeiten",
+    question: "Wie alt wurde Freddie Mercury?",
+    hints: [
+      "1946–1991.",
+      "Unter 50.",
+      "45 Jahre."
+    ],
+    answer: "45"
+  },
+  {
+    id: "q124",
+    category: "Persönlichkeiten",
+    question: "Wie alt wurde Marilyn Monroe?",
+    hints: [
+      "1926–1962.",
+      "Mitte 30.",
+      "36 Jahre."
+    ],
+    answer: "36"
+  },
+  {
+    id: "q125",
+    category: "Persönlichkeiten",
+    question: "Wie alt wurde Elvis Presley?",
+    hints: [
+      "1935–1977.",
+      "Anfang 40.",
+      "42 Jahre."
+    ],
+    answer: "42"
+  },
+  {
+    id: "q126",
+    category: "Persönlichkeiten",
+    question: "Wie alt wurde Karl Lagerfeld?",
+    hints: [
+      "Er starb 2019, geboren in den 1930ern.",
+      "Er wurde deutlich über 80.",
+      "85 Jahre."
+    ],
+    answer: "85"
+  },
+  {
+    id: "q127",
+    category: "Persönlichkeiten",
+    question: "Wie alt wurde Queen Elizabeth II.?",
+    hints: [
+      "1926–2022.",
+      "Zwischen 95 und 100.",
+      "96 Jahre."
+    ],
+    answer: "96"
+  },
+  {
+    id: "q128",
+    category: "Comics & Bücher",
+    question: "Wann erschien das erste Asterix-Album („Asterix le Gaulois“)?",
+    hints: [
+      "Noch vor 1965.",
+      "Frühe 1960er.",
+      "1961."
+    ],
+    answer: "1961"
+  },
+  {
+    id: "q129",
+    category: "Comics & Bücher",
+    question: "Wann erschien das erste Tim-und-Struppi-Album („Tintin au pays des Soviets“)?",
+    hints: [
+      "Zwischen den Weltkriegen.",
+      "Gleich zu Beginn der 1930er.",
+      "1930."
+    ],
+    answer: "1930"
+  },
+  {
+    id: "q130",
+    category: "Comics & Bücher",
+    question: "Für wie viel Dollar verkaufte 1938 der Schöpfer die Rechte an Superman an DC?",
+    hints: [
+      "Keine Millionen – eher ein symbolischer Betrag.",
+      "Deutlich unter 1.000 US-Dollar.",
+      "$130."
+    ],
+    answer: "$130"
+  },
+  {
+    id: "q131",
+    category: "Comics & Bücher",
+    question: "Wie hoch war der Coverpreis der ersten Batman-Ausgabe (1939)?",
+    hints: [
+      "Cent-Betrag, kein Dollar.",
+      "Zweistellig in Cents.",
+      "10 Cent."
+    ],
+    answer: "10 Cent"
+  },
+  {
+    id: "q132",
+    category: "Comics & Bücher",
+    question: "Welche Hausnummer hat Sherlock Holmes in der Baker Street?",
+    hints: [
+      "Dreistellig mit Buchstabe.",
+      "Zwischen 220 und 230.",
+      "221B Baker Street."
+    ],
+    answer: "221B"
+  },
+  {
+    id: "q133",
+    category: "Comics & Bücher",
+    question: "Wie viele James-Bond-Darsteller gab es in den offiziellen EON-Filmen bislang?",
+    hints: [
+      "Es sind weniger als zehn.",
+      "Zwischen fünf und sieben.",
+      "6 (Connery, Lazenby, Moore, Dalton, Brosnan, Craig)."
+    ],
+    answer: "6"
+  },
+  {
+    id: "q134",
+    category: "TV & Medien",
+    question: "Wie viele offizielle James-Bond-Filme gibt es aktuell (EON-Reihe, bis 2021)?",
+    hints: [
+      "Mehr als 20.",
+      "Zwischen 24 und 26.",
+      "25 Filme (bis „No Time to Die“)."
+    ],
+    answer: "25"
+  },
+  {
+    id: "q135",
+    category: "Rekorde",
+    question: "Wie alt wurde das älteste Pferd der Welt („Old Billy“)?",
+    hints: [
+      "Weit über 50 – Rekordalter.",
+      "Anfang 60.",
+      "62 Jahre."
+    ],
+    answer: "62"
+  },
+  {
+    id: "q136",
+    category: "Rekorde",
+    question: "Wie alt wurde die älteste Katze aller Zeiten („Creme Puff“)?",
+    hints: [
+      "Landete locker im Guinness-Buch.",
+      "Nahe 40.",
+      "38 Jahre."
+    ],
+    answer: "38"
+  },
+  {
+    id: "q137",
+    category: "Gesellschafts- und Videospiele",
+    question: "In welchem Jahr kam „Super Mario Kart“ erstmals in Deutschland auf den Markt?",
+    hints: [
+      "SNES-Ära.",
+      "Frühe 1990er.",
+      "1992."
+    ],
+    answer: "1992"
+  },
+  {
+    id: "q138",
+    category: "Gesellschafts- und Videospiele",
+    question: "Wie viele Straßen (eigene Farbstraßen) hat das klassische Monopoly-Spiel (ohne Bahnhöfe/Ereignis)?",
+    hints: [
+      "Keine Bahnhöfe, keine Werke – nur Straßen.",
+      "Zwischen 20 und 24.",
+      "22 Straßen."
+    ],
+    answer: "22"
+  },
+  {
+    id: "q139",
+    category: "Gesellschafts- und Videospiele",
+    question: "Wann erschien die erste PlayStation in Japan?",
+    hints: [
+      "Mitte der 1990er.",
+      "Noch vor der N64.",
+      "1994 (Dezember, Japan)."
+    ],
+    answer: "1994"
+  },
+  {
+    id: "q140",
+    category: "Gesellschafts- und Videospiele",
+    question: "Wann erschien die erste Xbox von Microsoft?",
+    hints: [
+      "Frühe 2000er.",
+      "Zeit von Halo: Combat Evolved.",
+      "2001."
+    ],
+    answer: "2001"
+  },
+  {
+    id: "q141",
+    category: "Gesellschafts- und Videospiele",
+    question: "Wann erschien die Vollversion von Minecraft (Version 1.0)?",
+    hints: [
+      "Nach langer Alpha/Beta-Phase.",
+      "Anfang der 2010er.",
+      "2011 (November)."
+    ],
+    answer: "2011"
+  },
+  {
+    id: "q142",
+    category: "Geografie",
+    question: "Wie lang ist die Golden-Gate-Bridge (Gesamtlänge) in Metern?",
+    hints: [
+      "Deutlich über zwei Kilometer.",
+      "Zwischen 2.700 und 2.800 Metern.",
+      "≈ 2.737 m."
+    ],
+    answer: "≈ 2.737 m"
+  },
+  {
+    id: "q143",
+    category: "Geld & Wirtschaft",
+    question: "Für wie viel US-Dollar wurde Mojang/Minecraft 2014 an Microsoft verkauft (in Milliarden)?",
+    hints: [
+      "Mehr als 2, weniger als 3.",
+      "Eine glatte halbe Zahl.",
+      "2,5 Mrd. USD."
+    ],
+    answer: "2,5 Mrd. USD (2014)"
+  },
+  {
+    id: "q144",
+    category: "Gesellschafts- und Videospiele",
+    question: "Wie viele PlayStation-3-Konsolen kaufte die US-Air-Force für einen Forschungs-„Supercomputer“?",
+    hints: [
+      "Vierstellige Stückzahl.",
+      "Zwischen 1.500 und 2.000.",
+      "1.760 PS3."
+    ],
+    answer: "1.760"
+  },
+  {
+    id: "q145",
+    category: "Gesellschafts- und Videospiele",
+    question: "Welches „Kill-Screen“-Level beendete das Original-Pac-Man durch einen Fehler?",
+    hints: [
+      "Nicht Level 200.",
+      "Dreistellig – ein Byte läuft über.",
+      "Level 256."
+    ],
+    answer: "256"
+  },
+  {
+    id: "q146",
+    category: "Gesellschafts- und Videospiele",
+    question: "Wann erschien Fortnite (Battle Royale-Modus)?",
+    hints: [
+      "Nicht 2016 – etwas später.",
+      "Herbst 2017.",
+      "September 2017."
+    ],
+    answer: "09/2017"
+  },
+  {
+    id: "q147",
+    category: "Comics & Bücher",
+    question: "Wann wurden in modernen Comics erstmals konsequent Sprechblasen eingesetzt (US-Zeitungstrips)?",
+    hints: [
+      "Vor Superhelden – Zeitungscomic-Ära.",
+      "Ende des 19. Jahrhunderts.",
+      "1896 (u. a. „The Yellow Kid“)."
+    ],
+    answer: "1896 (Zeitungsstrips)"
+  },
+  {
+    id: "q148",
+    category: "Gesellschafts- und Videospiele",
+    question: "Wann erschien das erste Grand Theft Auto (GTA)?",
+    hints: [
+      "PS1/PC-Ära, Top-Down-Ansicht.",
+      "Späte 1990er.",
+      "1997."
+    ],
+    answer: "1997"
+  },
+  {
+    id: "q149",
+    category: "Menschen & Gesellschaft",
+    question: "Wie alt war Greta Thunberg beim ersten Klimastreik (20. August 2018)?",
+    hints: [
+      "Noch keine 18.",
+      "Mitte der Teenagerjahre.",
+      "15 Jahre."
+    ],
+    answer: "15"
+  },
+  {
+    id: "q150",
+    category: "Sport",
+    question: "Welches Mindestgewicht gilt üblicherweise fürs Bungee-Jumping (Richtwert in kg)?",
+    hints: [
+      "Keine Kindergrenze, aber unter 50 kg ist’s oft knapp.",
+      "Zwischen 40 und 50 kg, je nach Anbieter.",
+      "≈ 40 kg (Richtwert)."
+    ],
+    answer: "≈ 40 kg"
+  },
+  {
+    id: "q151",
+    category: "Comics & Bücher",
+    question: "Wie viele Jahre war Captain America (MCU) im Eis eingefroren, bevor er wieder auftauchte?",
+    hints: [
+      "Vom Ende des Zweiten Weltkriegs bis in die 2010er.",
+      "Mitte der 1940er bis 2011.",
+      "≈ 66 Jahre."
+    ],
+    answer: "≈ 66 Jahre (MCU)"
+  },
+  {
+  id: "q152",
+  category: "Essen & Trinken",
+  question: "Aus wie vielen verschiedenen Kräutern, Blüten, Wurzeln und Früchten besteht das Rezept von Jägermeister?",
+  hints: [
+    "Mehr als zehn – weniger als ein Chemiebaukasten.",
+    "Doppelt so viele wie ein Dutzend, aber keine 60.",
+    "56 Kräuter, Blüten, Wurzeln und Früchte."
+  ],
+  answer: "56"
 }
+];
