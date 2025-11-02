@@ -35,7 +35,7 @@
   },
   {
     "id": "q4",
-    "category": "Gesellschafts- und V"id"eospiele",
+    "category": "Gesellschafts- und Videospiele",
     "question": "Wann wurde das Brettspiel Monopoly erstmals veröffentlicht?",
     "hints": [
       "Zwischen Weltwirtschaftskrise und Zweitem Weltkrieg – ein Spiel über Geld mitten in harter Zeit.",
@@ -46,14 +46,14 @@
   },
   {
     "id": "q5",
-    "category": "Gesellschafts- und V"id"eospiele",
+    "category": "Gesellschafts- und Videospiele",
     "question": "Wann erschien das Spiel „Mensch ärgere dich nicht“ erstmals offiziell?",
     "hints": [
-      "Es entstand in Deutschland – lange bevor V"id"eospiele existierten.",
+      "Es entstand in Deutschland – lange bevor Videospiele existierten.",
       "Kurz nach dem Ersten Weltkrieg – ein echter Klassiker mit Würfeln.",
-      "1914 – erfunden von Josef Friedrich Schm"id"t."
+      "1914 – erfunden von Josef Friedrich Schmidt."
     ],
-    "answer": "1914 (Josef Friedrich Schm"id"t)"
+    "answer": "1914 (Josef Friedrich Schmidt)"
   },
   {
     "id": "q6",
@@ -244,7 +244,7 @@
   },
   {
     "id": "q23",
-    "category": "Gesellschafts- und V"id"eospiele",
+    "category": "Gesellschafts- und Videospiele",
     "question": "Wann wurde Facebook gegründet?",
     "hints": [
       "Das Netzwerk entstand, als Studierende noch ICQ nutzten.",
@@ -271,9 +271,9 @@
     "hints": [
       "Boybands, Baggy-Jeans und Disketten – alles typisch 1990er.",
       "In der ersten Hälfte der 90er, kurz vor dem großen Teenie-Boom.",
-      "1993 – Gründung der Backstreet Boys in Flor"id"a."
+      "1993 – Gründung der Backstreet Boys in Florida."
     ],
-    "answer": "1993 (Orlando, Flor"id"a)"
+    "answer": "1993 (Orlando, Florida)"
   },
   {
     "id": "q26",
@@ -497,7 +497,7 @@
   },
   {
     "id": "q46",
-    "category": "Gesellschafts- und V"id"eospiele",
+    "category": "Gesellschafts- und Videospiele",
     "question": "Wie lang ist eine klassische Bowlingbahn – von der Foullinie bis zum letzten Kegel?",
     "hints": [
       "Weniger als 30 Meter – aber deutlich länger als eine Kegelbahn im Keller.",
@@ -641,7 +641,7 @@
   {
     "id": "q59",
     "category": "TV & Medien",
-    "question": "Wann wurde das erste YouTube-V"id"eo „Me at the zoo“ veröffentlicht?",
+    "question": "Wann wurde das erste YouTube-Video „Me at the zoo“ veröffentlicht?",
     "hints": [
       "Mitte der 2000er – YouTube war gerade erfunden.",
       "Im April 2005 – Elefanten im San Diego Zoo spielen die Hauptrolle.",
@@ -742,8 +742,8 @@
     "category": "Geschichte",
     "question": "Wann trat Hawaii als 50. Bundesstaat den USA bei?",
     "hints": [
-      "Nach Alaska – be"id"e späte 1950er.",
-      "Spätsommer 1959 – Unterschrift des Präs"id"enten.",
+      "Nach Alaska – beide späte 1950er.",
+      "Spätsommer 1959 – Unterschrift des Präsidenten.",
       "21. August 1959."
     ],
     "answer": "21.08.1959"
@@ -820,15 +820,15 @@
     "question": "Wie schnell fiel der schnellste Knock-out in der UFC-Geschichte?",
     "hints": [
       "Kürzer als ein Schluck Wasser – noch einstellig.",
-      "Unter fünf Sekunden – Jorge Masv"id"al kennt den Gegner kaum.",
+      "Unter fünf Sekunden – Jorge Masvidal kennt den Gegner kaum.",
       "5 Sekunden – 2019 gegen Ben Askren."
     ],
-    "answer": "5 Sekunden (Masv"id"al 2019)"
+    "answer": "5 Sekunden (Masvidal 2019)"
   },
   {
     "id": "q76",
     "category": "Macht & Politik",
-    "question": "Wann wurde der § 103 StGB („Majestätsbele"id"igung“) gestrichen?",
+    "question": "Wann wurde der § 103 StGB („Majestätsbeleidigung“) gestrichen?",
     "hints": [
       "Nach der berühmten Böhmermann-Affäre.",
       "Ende der 2010er, durch Bundestagsbeschluss.",
@@ -1260,7 +1260,7 @@
     "question": "Wie viele Geldautomaten gibt es in der Antarktis?",
     "hints": [
       "Nicht viele – aber mehr als null.",
-      "An einer US-Station stehen be"id"e direkt nebeneinander.",
+      "An einer US-Station stehen beide direkt nebeneinander.",
       "2 (McMurdo-Station)."
     ],
     "answer": "2"
@@ -1498,7 +1498,7 @@
   },
   {
     "id": "q137",
-    "category": "Gesellschafts- und V"id"eospiele",
+    "category": "Gesellschafts- und Videospiele",
     "question": "In welchem Jahr kam „Super Mario Kart“ erstmals in Deutschland auf den Markt?",
     "hints": [
       "SNES-Ära.",
@@ -1509,7 +1509,7 @@
   },
   {
     "id": "q138",
-    "category": "Gesellschafts- und V"id"eospiele",
+    "category": "Gesellschafts- und Videospiele",
     "question": "Wie viele Straßen (eigene Farbstraßen) hat das klassische Monopoly-Spiel (ohne Bahnhöfe/Ereignis)?",
     "hints": [
       "Keine Bahnhöfe, keine Werke – nur Straßen.",
@@ -1520,7 +1520,7 @@
   },
   {
     "id": "q139",
-    "category": "Gesellschafts- und V"id"eospiele",
+    "category": "Gesellschafts- und Videospiele",
     "question": "Wann erschien die erste PlayStation in Japan?",
     "hints": [
       "Mitte der 1990er.",
@@ -1531,7 +1531,7 @@
   },
   {
     "id": "q140",
-    "category": "Gesellschafts- und V"id"eospiele",
+    "category": "Gesellschafts- und Videospiele",
     "question": "Wann erschien die erste Xbox von Microsoft?",
     "hints": [
       "Frühe 2000er.",
@@ -1542,7 +1542,7 @@
   },
   {
     "id": "q141",
-    "category": "Gesellschafts- und V"id"eospiele",
+    "category": "Gesellschafts- und Videospiele",
     "question": "Wann erschien die Vollversion von Minecraft (Version 1.0)?",
     "hints": [
       "Nach langer Alpha/Beta-Phase.",
@@ -1554,7 +1554,7 @@
   {
     "id": "q142",
     "category": "Geografie",
-    "question": "Wie lang ist die Golden-Gate-Br"id"ge (Gesamtlänge) in Metern?",
+    "question": "Wie lang ist die Golden-Gate-Bridge (Gesamtlänge) in Metern?",
     "hints": [
       "Deutlich über zwei Kilometer.",
       "Zwischen 2.700 und 2.800 Metern.",
@@ -1575,7 +1575,7 @@
   },
   {
     "id": "q144",
-    "category": "Gesellschafts- und V"id"eospiele",
+    "category": "Gesellschafts- und Videospiele",
     "question": "Wie viele PlayStation-3-Konsolen kaufte die US-Air-Force für einen Forschungs-„Supercomputer“?",
     "hints": [
       "Vierstellige Stückzahl.",
@@ -1586,7 +1586,7 @@
   },
   {
     "id": "q145",
-    "category": "Gesellschafts- und V"id"eospiele",
+    "category": "Gesellschafts- und Videospiele",
     "question": "Welches „Kill-Screen“-Level beendete das Original-Pac-Man durch einen Fehler?",
     "hints": [
       "Nicht Level 200.",
@@ -1597,7 +1597,7 @@
   },
   {
     "id": "q146",
-    "category": "Gesellschafts- und V"id"eospiele",
+    "category": "Gesellschafts- und Videospiele",
     "question": "Wann erschien Fortnite (Battle Royale-Modus)?",
     "hints": [
       "Nicht 2016 – etwas später.",
@@ -1613,13 +1613,13 @@
     "hints": [
       "Vor Superhelden – Zeitungscomic-Ära.",
       "Ende des 19. Jahrhunderts.",
-      "1896 (u. a. „The Yellow K"id"“)."
+      "1896 (u. a. „The Yellow Kid“)."
     ],
     "answer": "1896 (Zeitungsstrips)"
   },
   {
     "id": "q148",
-    "category": "Gesellschafts- und V"id"eospiele",
+    "category": "Gesellschafts- und Videospiele",
     "question": "Wann erschien das erste Grand Theft Auto (GTA)?",
     "hints": [
       "PS1/PC-Ära, Top-Down-Ansicht.",
