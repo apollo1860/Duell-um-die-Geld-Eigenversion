@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Ich bin ein Planet in unserem Sonnensystem. Wer bin ich?",
+      "hints": [
+        "Ich bin der vierte Planet von der Sonne.",
+        "Meine Oberfläche ist von Eisenoxid gerötet.",
+        "NASA plante Missionen namens 'Perseverance' und 'Curiosity' zu mir."
+      ],
+      "answer": "Mars"
+    },
+    {
+      "id": "q2",
+      "question": "Ich bin ein Musikinstrument mit Tasten.",
+      "hints": [
+        "Ich habe meist 88 Tasten.",
+        "Ich erzeuge Töne durch Saiten, die von Hämmern angeschlagen werden.",
+        "Es gibt Konzert-, Halb- und Digitalversionen von mir."
+      ],
+      "answer": "Klavier"
+    },
+    {
+      "id": "q3",
+      "question": "Ich bin eine Programmiersprache.",
+      "hints": [
+        "Ich werde oft für Datenanalyse und Wissenschaft genutzt.",
+        "Mein Maskottchen ist keine Schlange, trotz des Namens.",
+        "Beliebte Bibliotheken sind NumPy und pandas."
+      ],
+      "answer": "Python"
+    }
+  ]
+}
