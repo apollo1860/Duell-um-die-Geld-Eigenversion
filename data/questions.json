@@ -744,7 +744,7 @@
     "hints": [
       "Der zweite Weltkrieg war bereits vorbei.",
       "Vor 1970.",
-      "1959."
+      "1959"
     ],
     "answer": "21.08.1959"
   },
@@ -830,9 +830,9 @@
     "category": "Macht & Politik",
     "question": "Wann wurde der § 103 StGB („Majestätsbeleidigung“) gestrichen?",
     "hints": [
-      "Nach der berühmten Böhmermann-Affäre.",
-      "Ende der 2010er, durch Bundestagsbeschluss.",
-      "1. Januar 2018."
+      "Die Absschaffung geschah nach der berühmten Böhmermann-Affäre mit Recep Tayyip Erdogan",
+      "Im gleichen Jahr wurde die letzte Große Koalition unter Angela Merkel geformt.",
+      "2018"
     ],
     "answer": "01.01.2018"
   },
@@ -841,20 +841,20 @@
     "category": "Macht & Politik",
     "question": "Wie viele Bundeskanzler gab es bisher in der Bundesrepublik Deutschland (Stand 2025)?",
     "hints": [
-      "Von Adenauer bis Scholz – gar nicht so viele.",
-      "Unter zehn, aber über sieben.",
-      "9 Bundeskanzler (Adenauer bis Scholz)."
+      "Der erste war 1949 Konrad Adenauer.",
+      "Man könnte knapp keine Fußballmannschaft bestehend aus ehemaligen und aktuellen Bundeskanzlern aufstellen.",
+      "10"
     ],
-    "answer": "9 (Stand 2025)"
+    "answer": "10"
   },
   {
     "id": "q78",
     "category": "Macht & Politik",
     "question": "Wie viele Mitgliedsstaaten hat die Europäische Union aktuell?",
     "hints": [
-      "Seit dem Brexit ist es keine runde Zahl mehr mit 28.",
-      "Ein Land weniger als 28.",
-      "27 Mitgliedsstaaten."
+      "Seit dem Brexit ist es keine runde Zahl mehr.",
+      "Aktuell nutzen 20 souveräne Staaten den Euro.",
+      "27"
     ],
     "answer": "27 (Stand 2025)"
   },
@@ -863,9 +863,9 @@
     "category": "Geografie",
     "question": "Wie viele Länder gibt es auf dem afrikanischen Kontinent?",
     "hints": [
-      "Mehr als 50, weniger als 60.",
-      "Knapp über 50 – UNO-Mitglieder gerechnet.",
-      "54 Länder."
+      "Es sind mehr als viermal so viele Staaten wie es in Südamerika gibt.",
+      "Afrikanische Länder machen fast 30 Prozent aller Länder dieser Welt aus.",
+      "54"
     ],
     "answer": "54"
   },
@@ -874,31 +874,31 @@
     "category": "Geografie",
     "question": "Wie viele Länder liegen in Südamerika?",
     "hints": [
-      "Weniger als in Afrika – dafür viel Fußball-Leidenschaft.",
-      "Zwischen 10 und 15 Staaten.",
-      "12 Länder."
+      "Es sind mehr Länder als Australien Bundesstaaten hat.",
+      "Es sind weniger Länder als Deutschland Bundesländer hat.",
+      "12"
     ],
     "answer": "12"
   },
   {
     "id": "q81",
-    "category": "Gesellschaft",
-    "question": "Wie viele gesetzliche Feiertage gibt es in Bayern im Jahr?",
+    "category": "München",
+    "question": "Wie viele gesetzliche Feiertage gibt es in München im Jahr?",
     "hints": [
-      "Mehr als in jedem anderen Bundesland.",
-      "Zwischen 12 und 15 – je nach Region leicht variierend.",
-      "13 gesetzliche Feiertage."
+      "Das Bundesland Sachsen hat mit 11 Feiertagen weniger.",
+      "Die Stadt Augsburg hat mit 14 Feiertagen mehr.",
+      "13"
     ],
     "answer": "13"
   },
   {
     "id": "q82",
     "category": "Geschichte",
-    "question": "Wie viele Schaltjahre gab es seit 1900 bis einschließlich 2024?",
+    "question": "Wie viele Schaltjahre gab es seit 1900?",
     "hints": [
-      "Etwa alle vier Jahre – aber mit Jahrhundert-Ausnahmen.",
-      "Etwas über 30 – rechne 125 / 4 minus Korrekturen.",
-      "31 Schaltjahre."
+      "Ein Schaltjahr ist normalerweise alle vier Jahre.",
+      "Jahre, die durch 100 teilbar sind, sind keine Schaltjahre – außer sie sind auch durch 400 teilbar.",
+      "31"
     ],
     "answer": "31 (1904–2024)"
   },
@@ -907,9 +907,9 @@
     "category": "TV & Medien",
     "question": "Wann ging ProSieben erstmals auf Sendung?",
     "hints": [
-      "Als private Sender boomten und Neonfarben modern waren.",
-      "Ende der 1980er.",
-      "1. Januar 1989."
+      "RTL ging fünf Jahre vor ProSieben auf Sendung.",
+      "ProSieben ist keine 40 Jahre alt.",
+      "1989"
     ],
     "answer": "01.01.1989"
   },
@@ -918,9 +918,9 @@
     "category": "Gesellschaft",
     "question": "Wie viele Verkehrsunfälle gab es in Deutschland 2023 (in Mio.)?",
     "hints": [
-      "Weit über zwei Millionen – aber unter drei.",
-      "Rund 2,4 Millionen laut Destatis.",
-      "≈ 2,43 Mio. registrierte Unfälle."
+      "In der USA waren es 2023 ca. 6,14 Mio.",
+      "Es gab mehr Verkehrsunfälle als Hamburg Einwohner hat.",
+      "2,43"
     ],
     "answer": "≈ 2,43 Mio. (2023)"
   },
@@ -929,9 +929,9 @@
     "category": "Sport",
     "question": "Wie viele NBA-Titel gewannen die Los Angeles Lakers bislang?",
     "hints": [
-      "Einer der Rekordhalter – gleichauf mit Boston.",
-      "Zwischen 16 und 18.",
-      "17 Titel (Stand 2024)."
+      "Die Los Angeles Laker haben so viele Titel wie die Boston Celtics.",
+      "Runtergerechnet gewinnen die Los Angeles Lakers seit Gründung der NBA alle 5 Jahre einen Titel.",
+      "17"
     ],
     "answer": "17 (Stand 2024)"
   },
@@ -940,9 +940,9 @@
     "category": "Sport",
     "question": "Wie viele Meisterschaften gewann der FC Bayern München in der Bundesliga bis 2024?",
     "hints": [
-      "Mehr als doppelt so viele wie der Zweitplatzierte.",
-      "Im oberen 30er-Bereich.",
-      "33 Titel (Stand 2024)."
+      "Borussia Dortmund hat mit acht Titeln weniger.",
+      "Alle anderen Bundesliga-Meister haben kombiniert mit 29 Titeln weniger.",
+      "33"
     ],
     "answer": "33 (Stand 2024)"
   },
@@ -951,9 +951,9 @@
     "category": "Geld & Wirtschaft",
     "question": "Wie hoch ist das durchschnittliche monatliche Brutto-Vollzeitgehalt in Deutschland 2024?",
     "hints": [
-      "Etwas über 4 000 Euro – Tendenz steigend.",
-      "Zwischen 4 200 und 4 300 Euro laut Destatis.",
-      "≈ 4 250 € brutto (2024)."
+      "Die Summe entspricht etwas mehr als 200.000 Türkische Lira.",
+      "Die Summe entspricht etwas mehr als 3.730 britische Pfund.",
+      "4 250 €"
     ],
     "answer": "≈ 4 250 € brutto (2024)"
   },
@@ -962,20 +962,20 @@
     "category": "Essen & Trinken",
     "question": "Wie viele Tic Tacs sind in einer klassischen 49 g Packung enthalten?",
     "hints": [
-      "Einzeln kaum zählbar, aber wir reden von zwei-stelligen Zahlen.",
-      "Zwischen 35 und 50 Stück – je nach Variante.",
-      "≈ 38 Tic Tacs in 49 g."
+      "Es ist keine zweistellige Zahl.",
+      "Eine ganze Packung von flach aufeinander gelegten Tic Tacs entspricht einer Höhe von ca. 20 Zentimetern.",
+      "100"
     ],
-    "answer": "≈ 38 Stück"
+    "answer": "100"
   },
   {
     "id": "q89",
-    "category": "München",
+    "category": "Geografie",
     "question": "Wie groß ist das Gelände des ehemaligen Flughafens Tempelhof – heute Tempelhofer Feld (in Hektar)?",
     "hints": [
-      "Größer als der Central Park in New York? Fast!",
-      "Über 300 Hektar – eine der größten Stadtflächen Europas.",
-      "≈ 386 Hektar (3,86 km²)."
+      "Das Gelände ist etwas größer als der Central Park in New York.",
+      "Die Fläche entspricht ungefähr der Größe von 541 Standard-Fußballfeldern.",
+      "386"
     ],
     "answer": "≈ 386 ha (3,86 km²)"
   },
@@ -984,9 +984,9 @@
     "category": "München",
     "question": "Wie viele U-Bahn-Stationen umfasst das MVG-Netz in München (Stand 2024)?",
     "hints": [
-      "Weit über 80, aber unter 110 Stationen.",
-      "Neueröffnungen 2023 inklusive.",
-      "≈ 100 Stationen (Stand 2024)."
+      "Es sind mehr als 30.",
+      "Die U2 Linie alleine hat insgesamt 27 Stationen.",
+      "100"
     ],
     "answer": "≈ 100 (Stand 2024)"
   },
@@ -995,9 +995,9 @@
     "category": "Kunst",
     "question": "Wie hoch war der Verkaufspreis des teuersten Gemäldes aller Zeiten – Leonardo da Vincis „Salvator Mundi“ (in Mio. US-Dollar)?",
     "hints": [
-      "Deutlich über 300 Millionen – Auktionsrekord von Christie’s.",
-      "Knapp unter 500 Millionen.",
-      "≈ 450,3 Mio. US-Dollar (2017)."
+      "Die Zahl ist größer als die USA Einwohner hat.",
+      "Die Zahl ist kleiner als Europa Einwohner hat.",
+      "450,3"
     ],
     "answer": "≈ 450,3 Mio. USD (2017)"
   },
@@ -1007,8 +1007,8 @@
     "question": "Wie viele Streifen hat die Flagge der Vereinigten Staaten?",
     "hints": [
       "Sie stehen für die ursprünglichen Kolonien – nicht für die heutigen Bundesstaaten.",
-      "Zweistellig, aber unter 20.",
-      "13 Streifen."
+      "Es gibt mittlerweile fast viermal so viele Bundestaaten wie Streifen auf der Flagge sind.",
+      "13"
     ],
     "answer": "13"
   },
@@ -1017,9 +1017,9 @@
     "category": "Kunst",
     "question": "Wie viele Primzahlen gibt es bis einschließlich 100?",
     "hints": [
-      "Es sind mehr als 20, aber keine 30.",
-      "Knapp ein Vierteljahrhundert – mathematisch gesehen.",
-      "25 Primzahlen."
+      "Es ist eine zweistellige Zahl.",
+      "Bis einschließlich 50 gibt es insgesamt 15 Primzahlen.",
+      "25"
     ],
     "answer": "25"
   },
@@ -1028,9 +1028,9 @@
     "category": "Menschen & Gesellschaft",
     "question": "Wie viele Knochen hat ein erwachsener Mensch normalerweise?",
     "hints": [
-      "Mehr als 200 – aber nicht viel mehr.",
-      "Genau genommen knapp über 200.",
-      "206 Knochen."
+      "Eine menschliche Hand besteht in der Regel aus 27 Einzelknochen.",
+      "Eine Katze hat mit 230 Knochen mehr.",
+      "206"
     ],
     "answer": "206"
   },
@@ -1039,9 +1039,9 @@
     "category": "Essen & Trinken",
     "question": "Zu wie viel Prozent besteht eine Gurke aus Wasser?",
     "hints": [
-      "So saftig wie ein kleiner Schwamm – weit über 80 %. ",
-      "Zwischen 90 und 97 Prozent.",
-      "Rund 95 %."
+      "Sehr viel.",
+      "Über 90 Prozent.",
+      "95"
     ],
     "answer": "≈ 95 %"
   },
